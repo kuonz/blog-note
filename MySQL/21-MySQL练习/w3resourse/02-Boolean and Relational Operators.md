@@ -2,7 +2,7 @@
 author: "kuonz"
 draft: false
 title: "Boolean and Relational Operators"
-date: 2020-04-05
+date: 2020-04-03
 categories: ["w3resourse"]
 ---
   
