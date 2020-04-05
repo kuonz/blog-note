@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis通用命令"
 date: 2020-04-05
-categories: ["Redis通用命令"]
+categories: ["Redis"]
 ---
-  
+
 ## Key通用命令
 
 | 命令                                       | 说明                        |

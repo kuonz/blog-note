@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Query on Multiple Tables"
 date: 2020-04-05
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 网址：https://www.w3resource.com/sql-exercises/sql-exercises-quering-on-multiple-table.php#SQLEDITOR
 
 1.

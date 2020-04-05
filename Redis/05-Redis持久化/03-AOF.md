@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "AOF"
 date: 2020-04-05
-categories: ["Redis持久化"]
+categories: ["Redis"]
 ---
-  
+
 ## AOF是什么
 
 AOF：Append Only File

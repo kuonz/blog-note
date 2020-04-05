@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "DDL练习"
 date: 2020-04-05
-categories: ["MySQL练习"]
+categories: ["MySQL"]
 ---
-  
+
 ## 数据库
 
 ### 创建库

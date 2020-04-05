@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "NoSQL与Redis"
 date: 2020-04-05
-categories: ["Redis介绍、下载与安装"]
+categories: ["Redis"]
 ---
-  
+
 ## NoSQL
 
 ### NoSQL诞生背景

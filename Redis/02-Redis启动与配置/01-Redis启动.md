@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis启动"
 date: 2020-04-05
-categories: ["Redis启动与配置"]
+categories: ["Redis"]
 ---
-  
+
 ## Redis服务端
 
 | 操作         | 说明                                      |

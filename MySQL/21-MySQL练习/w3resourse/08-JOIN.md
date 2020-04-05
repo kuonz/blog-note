@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "JOIN"
 date: 2020-04-05
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 网址：https://www.w3resource.com/sql-exercises/sql-joins-exercises.php#SQLEDITOR
 
 .

@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis持久化概述"
 date: 2020-04-05
-categories: ["Redis持久化"]
+categories: ["Redis"]
 ---
-  
+
 ## 什么是持久化
 
 利用永久性存储介质将数据进行保存，在特定的时间将保存的数据进行恢复的工作机制称为持久化

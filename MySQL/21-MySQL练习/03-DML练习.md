@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "DML练习"
 date: 2020-04-05
-categories: ["MySQL练习"]
+categories: ["MySQL"]
 ---
-  
+
 ### 建表
 
 * 按照DDL练习，先创建student表和home表

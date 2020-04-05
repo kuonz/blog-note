@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "SQL JOINS on HR Database"
 date: 2020-04-05
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 1.
 
 ```mysql

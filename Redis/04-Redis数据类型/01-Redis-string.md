@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis-string"
 date: 2020-04-05
-categories: ["Redis数据类型"]
+categories: ["Redis"]
 ---
-  
+
 ## string类型简介
 
 | 项   | 说明                                                       |

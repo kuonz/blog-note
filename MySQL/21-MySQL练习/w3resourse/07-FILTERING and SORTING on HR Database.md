@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "FILTERING and SORTING on HR Database"
 date: 2020-04-05
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 网址：https://www.w3resource.com/sql-exercises/sorting-and-filtering-hr/index.php
 
 1.

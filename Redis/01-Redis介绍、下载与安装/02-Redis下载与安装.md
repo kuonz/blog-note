@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis下载与安装"
 date: 2020-04-05
-categories: ["Redis介绍、下载与安装"]
+categories: ["Redis"]
 ---
-  
+
 > 由于 Redis 对 Windows 平台支持并不好，且 Redis 一般只用于 Linux 服务器上，所以本文只介绍如何在 Linux 中使用 Redis
 
 ## 普通方式

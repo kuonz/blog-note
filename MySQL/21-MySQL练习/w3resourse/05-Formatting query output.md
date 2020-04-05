@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Formatting query output"
 date: 2020-04-05
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 网址：https://www.w3resource.com/sql-exercises/sql-fromatting-output-exercises.php
 
 1.

@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "RDB"
 date: 2020-04-05
-categories: ["Redis持久化"]
+categories: ["Redis"]
 ---
-  
+
 ## RDB是什么
 
 RDB：Redis DataBase

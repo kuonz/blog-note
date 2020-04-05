@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Redis配置"
 date: 2020-04-05
-categories: ["Redis启动与配置"]
+categories: ["Redis"]
 ---
-  
+
 | 参数      | 说明                                                   | 默认值 |
 | --------- | ------------------------------------------------------ | ------ |
 | daemonize | 是否以守护进程方式启动                                 | on     |

@@ -3,9 +3,9 @@ author: "kuonz"
 draft: false
 title: "Aggregate Functions"
 date: 2020-04-03
-categories: ["w3resourse"]
+categories: ["MySQL"]
 ---
-  
+
 网址：https://www.w3resource.com/sql-exercises/sql-aggregate-functions.php
 
 1.
