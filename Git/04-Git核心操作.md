@@ -28,7 +28,7 @@ Git中有个 `HEAD` 指针指向某个版本号，表示当前工作区中是哪
 
 快照示意图：
 
-![](/04-Git核心操作-images/image-20200324052322927.png)
+![](/post/Git/04-Git核心操作-images/image-20200324052322927.png)
 
 
 
@@ -68,15 +68,15 @@ git reset --[hard|mixed|soft] 版本号
 
 --soft：工作区移动，暂存区，本地库都不移动
 
-![](/04-Git核心操作-images/image-20200324053448625.png)
+![](/post/Git/04-Git核心操作-images/image-20200324053448625.png)
 
 --mixed：工作区，暂存区都移动，本地库不移动
 
-![](/04-Git核心操作-images/image-20200324053455138.png)
+![](/post/Git/04-Git核心操作-images/image-20200324053455138.png)
 
 --hard：工作区，暂存区，本地库都移动
 
-![](/04-Git核心操作-images/image-20200324053501780.png)
+![](/post/Git/04-Git核心操作-images/image-20200324053501780.png)
 
 ### revert命令
 
@@ -94,7 +94,7 @@ git revert -n 版本号
 
 例子：对于三个版本（版本一、版本二、 版本三），突然发现版本二有bug，想要撤销版本二，但又不想影响撤销版本三的提交，就可以用 git revert 命令来反做版本二，生成新的版本四，这个版本四里会保留版本三的东西，但撤销了版本二的东西
 
-![](/04-Git核心操作-images/image-20200324053353107.png)
+![](/post/Git/04-Git核心操作-images/image-20200324053353107.png)
 
 ### reset和revert区别
 
@@ -150,7 +150,7 @@ git revert -n 版本号
 
 示意图：
 
-![](/04-Git核心操作-images/image-20200324055539286.png)
+![](/post/Git/04-Git核心操作-images/image-20200324055539286.png)
 
 ### 分支优点
 

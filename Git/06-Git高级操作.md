@@ -36,15 +36,15 @@ git rebase -i [startpoint]  [endpoint] # 左开右闭区间
 
 1. 最初记录
 
-   ![](/06-Git高级操作-images/image-20200324072144773.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072144773.png)
 
 2. 将`2.js`和`3.js`记录进行合并【注意是左开右闭区间】
 
-   ![](/06-Git高级操作-images/image-20200324072157174.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072157174.png)
 
 3. 执行完命令后，进入合并选项界面
 
-   ![](/06-Git高级操作-images/image-20200324072213141.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072213141.png)
 
    | 选项   | 说明                                                         |
    | ------ | ------------------------------------------------------------ |
@@ -58,19 +58,19 @@ git rebase -i [startpoint]  [endpoint] # 左开右闭区间
 
    通常使用`squash`选项
 
-   ![](/06-Git高级操作-images/image-20200324072314797.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072314797.png)
 
 4. 最后进入注释修改界面，用于提供合并后的提交的注释
 
-   ![](/06-Git高级操作-images/image-20200324072334845.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072334845.png)
 
    修改后保存即可完成
 
-   ![](/06-Git高级操作-images/image-20200324072352124.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072352124.png)
 
 5. 查看结果
 
-   ![](/06-Git高级操作-images/image-20200324072410549.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072410549.png)
 
 ### 使用场景2：让分支A的某段提交粘贴到分支B
 
@@ -78,7 +78,7 @@ git rebase -i [startpoint]  [endpoint] # 左开右闭区间
 
 #### 示意图
 
-![](/06-Git高级操作-images/image-20200324072436685.png)
+![](/post/Git/06-Git高级操作-images/image-20200324072436685.png)
 
 #### 命令
 
@@ -92,22 +92,22 @@ git rebase [startpoint] [endpoint] --onto [目标分支名] # 左开右闭区间
 
    master分支的log
 
-   ![](/06-Git高级操作-images/image-20200324072624700.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072624700.png)
 
    dev分支的log
 
-   ![](/06-Git高级操作-images/image-20200324072643298.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072643298.png)
 
 2. 将`dev分支`log的`dev-2.js`到`dev-4.js`的记录粘贴到`master分支`中
 
    注意：仍然是左开右闭区间
 
-   ![](/06-Git高级操作-images/image-20200324072701177.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072701177.png)
 
 3. 执行完后，HEAD处于游离状态，需要根据提示设置HEAD的指向
 
-   ![](/06-Git高级操作-images/image-20200324072716651.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072716651.png)
 
 4. 查看合并结果
 
-   ![](/06-Git高级操作-images/image-20200324072739304.png)
+   ![](/post/Git/06-Git高级操作-images/image-20200324072739304.png)

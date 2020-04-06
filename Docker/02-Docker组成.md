@@ -8,7 +8,7 @@ categories: ["Docker"]
   
 ## Docker组成图
 
-![](/02-Docker架构-images/image-20200327220817690.png)
+![](/post/Docker/02-Docker架构-images/image-20200327220817690.png)
 
 
 

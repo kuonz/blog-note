@@ -24,7 +24,7 @@ HTTP认证可以分为`BASIC认证`，`DIGEST认证`，`SSL认证` 和 `FormBase
 2. 接收到状态码 401 的客户端为了通过 BASIC 认证，需要将 用户 ID 及密码发送给服务器，发送的字符串内容是由用户 ID 和密码构成，两者中间以冒号（:）连接后，再经过 Base64 编码处理
 3. 接收到包含首部字段 `Authorization` 请求的服务器，会对认证信息的正确性进行验证，如果验证通过，则返回一条包含 `Request-URI` 资源的响应
 
-![](/04-HTTP特性-images/image-20200326020222257.png)
+![](/post/Network/01-应用层/01-HTTP协议/04-HTTP特性-images/image-20200326020222257.png)
 
 缺点：
 
@@ -37,7 +37,7 @@ HTTP认证可以分为`BASIC认证`，`DIGEST认证`，`SSL认证` 和 `FormBase
 
 介绍：为弥补 BASIC 认证存在的弱点，从 HTTP/1.1 起就有了 DIGEST 认证，DIGEST 认证同样使用质询 / 响应的方式 ，但不会像 BASIC 认证那样直接发送明文密码，所谓质询响应方式是指，一开始一方会先发送认证要求给另一方，接着使用从另一方那接收到的质询码计算生成响应码。最后将响应码返 回给对方进行认证的方式
 
-![](/04-HTTP特性-images/image-20200326021812310.png)
+![](/post/Network/01-应用层/01-HTTP协议/04-HTTP特性-images/image-20200326021812310.png)
 
 步骤：
 
@@ -45,7 +45,7 @@ HTTP认证可以分为`BASIC认证`，`DIGEST认证`，`SSL认证` 和 `FormBase
 2. 接收到 401 状态码的客户端，返回的响应中包含 DIGEST 认 证必须的首部字段 Authorization 信息
 3. 接收到包含首部字段 Authorization 请求的服务器，会确认认证信息的正确性。认证通过后则返回包含 Request-URI 资源的响应
 
-![](/04-HTTP特性-images/image-20200326021921304.png)
+![](/post/Network/01-应用层/01-HTTP协议/04-HTTP特性-images/image-20200326021921304.png)
 
 ### SSL认证
 
@@ -87,7 +87,7 @@ HTTP认证可以分为`BASIC认证`，`DIGEST认证`，`SSL认证` 和 `FormBase
 
 代理用于接收客户端请求，并把请求转发给服务端，同时代理接收服务端响应，并将其转发给客户端
 
-![](/04-HTTP特性-images/image-20200326023715654.png)
+![](/post/Network/01-应用层/01-HTTP协议/04-HTTP特性-images/image-20200326023715654.png)
 
 常用代理工具：Fiddler
 

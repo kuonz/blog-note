@@ -127,13 +127,13 @@ aof_base_size
 
 自动重写触发条件
 
-![](/03-AOF-images/image-20200324153803995.png)
+![](/post/Redis/05-Redis持久化/03-AOF-images/image-20200324153803995.png)
 
 
 
 ### 重写流程
 
-![](/03-AOF-images/image-20200324153238990.png)
+![](/post/Redis/05-Redis持久化/03-AOF-images/image-20200324153238990.png)
 
 
 

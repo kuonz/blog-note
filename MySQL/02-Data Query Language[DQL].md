@@ -382,7 +382,7 @@ ON e.department_id = d.department_id;
 
 ### 图例
 
-![](/02-Data Query Language[]-images/image-20200328072300793.png)
+![](/post/MySQL/02-Data Query Language[]-images/image-20200328072300793.png)
 
 
 

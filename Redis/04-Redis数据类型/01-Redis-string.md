@@ -15,7 +15,7 @@ categories: ["Redis"]
 
 ### 类型模型
 
-![](/01-Redis-string-images/image-20200322181252547.png)
+![](/post/Redis/04-Redis数据类型/01-Redis-string-images/image-20200322181252547.png)
 
 
 

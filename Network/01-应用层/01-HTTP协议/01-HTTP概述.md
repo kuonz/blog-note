@@ -60,7 +60,7 @@ POST、PUT、PATCH区别：
 
 一次HTTP的传输需要两个参与者：客户端和服务端，其中客户端发送请求，服务端处理请求并进行响应
 
-![](/01-HTTP概述-images/image-20200323035922317.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323035922317.png)
 
 
 
@@ -138,11 +138,11 @@ DNS查询方式分为：递归查询和迭代查询
 
 递归查询：DNS服务器帮你去查
 
-![](/01-HTTP概述-images/image-20200323202138186.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323202138186.png)
 
 迭代查询：DNS服务器告诉去哪里查，但不会帮忙去查
 
-![](/01-HTTP概述-images/image-20200323202841130.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323202841130.png)
 
 ### 浏览器进行DNS解析的步骤
 
@@ -160,9 +160,9 @@ Cookie是一种解决HTTP无状态的方案，它本质是存储在客户端本�
 
 ### Cookie工作流程
 
-![](/01-HTTP概述-images/image-20200323203638825.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323203638825.png)
 
-![](/01-HTTP概述-images/image-20200323203733828.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323203733828.png)
 
 
 
@@ -176,7 +176,7 @@ Session是另一种记录客户端状态的机制，客户端浏览访问服务�
 
 ### Session工作原理
 
-![](/01-HTTP概述-images/image-20200323204252030.png)
+![](/post/Network/01-应用层/01-HTTP协议/01-HTTP概述-images/image-20200323204252030.png)
 
 ### 客户端保存和提交Session ID的方式
 

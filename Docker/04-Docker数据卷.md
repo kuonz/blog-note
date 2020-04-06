@@ -16,7 +16,7 @@ categories: ["Docker"]
 
 3. 容器之间如何进行数据交换？
 
-![](/04-Docker数据卷-images/image-20200327225623622.png)
+![](/post/Docker/04-Docker数据卷-images/image-20200327225623622.png)
 
 ### 数据卷介绍
 
@@ -24,7 +24,7 @@ categories: ["Docker"]
 
 一个数据卷可以被多个容器同时挂载，一个容器也可以挂载多个数据卷
 
-![](/04-Docker数据卷-images/image-20200327230654580.png)
+![](/post/Docker/04-Docker数据卷-images/image-20200327230654580.png)
 
 ### 数据卷作用
 
@@ -50,7 +50,7 @@ docker run ... -v [宿主机目录/文件:容器内目录/文件] ...
 
 可以使用数据卷容器来简化容器挂载数据卷的操作
 
-![](/04-Docker数据卷-images/image-20200327231322463.png)
+![](/post/Docker/04-Docker数据卷-images/image-20200327231322463.png)
 
 创建数据卷容器
 

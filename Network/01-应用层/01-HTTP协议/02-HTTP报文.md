@@ -16,23 +16,23 @@ categories: ["HTTP协议"]
 
 `HTTP` 报文可以分为报文首部（报文头）和报文主体两块，报文首部和报文主体之间使用换行符 (`CR+LF`) 作为分隔
 
-![](/02-HTTP报文-images/image-20200323020843195.png)
+![](/post/Network/01-应用层/01-HTTP协议/02-HTTP报文-images/image-20200323020843195.png)
 
 ### 请求报文结构
 
-![](/02-HTTP报文-images/image-20200323021037665.png)
+![](/post/Network/01-应用层/01-HTTP协议/02-HTTP报文-images/image-20200323021037665.png)
 
 请求行的组成是：`请求方法 请求URI HTTP协议版本` 
 
-![](/02-HTTP报文-images/image-20200323021200827.png)
+![](/post/Network/01-应用层/01-HTTP协议/02-HTTP报文-images/image-20200323021200827.png)
 
 ### 响应报文结构
 
-![](/02-HTTP报文-images/image-20200323021322803.png)
+![](/post/Network/01-应用层/01-HTTP协议/02-HTTP报文-images/image-20200323021322803.png)
 
 状态行的组成是：`HTTP协议版本 状态码 状态码描述`
 
-![](/02-HTTP报文-images/image-20200323021406460.png)
+![](/post/Network/01-应用层/01-HTTP协议/02-HTTP报文-images/image-20200323021406460.png)
 
 
 

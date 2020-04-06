@@ -26,11 +26,11 @@ type HandleFunc func(*Context)
 
 `Gin` 的中间件模型是洋葱模型
 
-![](/05-Gin中间件-images/image-20200317083859500.png)
+![](/post/Go/09-Gin/05-Gin中间件-images/image-20200317083859500.png)
 
 **中间件是嵌套中另外一个中间件之中**，请求经过多个中间件处理后做出响应
 
-![](/05-Gin中间件-images/image-20200317083927397.png)
+![](/post/Go/09-Gin/05-Gin中间件-images/image-20200317083927397.png)
 
 
 

@@ -22,7 +22,7 @@ categories: ["传输层"]
 
 ## UDP报文结构
 
-![](/02-UDP协议-images/image-20200324191718448.png)
+![](/post/Network/02-传输层/02-UDP协议-images/image-20200324191718448.png)
 
 
 

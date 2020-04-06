@@ -39,7 +39,7 @@ WebSocket建立连接时会使用HTTP建立连接的方法，不过对请求首�
 | Sec-WebSocket-Key      | 固定值     |
 | Sec-WebSocket-Protocol | 需要的服务 |
 
-![](/06-基于HTTP发展的协议-images/image-20200326033758146.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326033758146.png)
 
 ### WebSocket特点
 
@@ -70,7 +70,7 @@ Long Poll：客户端询问服务器端有没有资源更新，询问保持连�
 
 `SPDY` 是一个由`Google` 与 `2012` 年发布的介于 `HTTP` 协议和 `TLS` 协议之间的协议，是对 `HTTP` 协议的增强，旨在解决 `HTTP` 的性能瓶颈，缩短 `Web` 页面的加载时间
 
-![](/06-基于HTTP发展的协议-images/image-20200326034750674.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326034750674.png)
 
 ### SPDY改进
 
@@ -98,19 +98,19 @@ Long Poll：客户端询问服务器端有没有资源更新，询问保持连�
 
 `HTTP/2` 中数据传输以流形式进行，传输的单位为帧
 
-![](/06-基于HTTP发展的协议-images/image-20200326041831628.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326041831628.png)
 
 ### HTTP/2 首部压缩
 
 每次发送报文时，会保留和维护报文首部字段，在第二次发送时，只会发送发生变化的首部字段，以达到压缩首部减少首部冗余，提高传输速率的目的
 
-![](/06-基于HTTP发展的协议-images/image-20200326035704866.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326035704866.png)
 
 ### HTTP/2 多路复用
 
 所有的`HTTP`连接共用一个`TCP`连接，一个连接对应一个流，不同流的帧在`TCP`连接上发送
 
-![](/06-基于HTTP发展的协议-images/image-20200326035852073.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326035852073.png)
 
 优点：
 
@@ -120,7 +120,7 @@ Long Poll：客户端询问服务器端有没有资源更新，询问保持连�
 
 ### HTTP/2 全双工传输
 
-![](/06-基于HTTP发展的协议-images/image-20200326040335553.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326040335553.png)
 
 优点：
 
@@ -149,7 +149,7 @@ RTT太多：使用 `SSL/TLS` 协议，所以握手次数会很多，即RTT会很
 
 `HTTP3` 协议基于 `QUIC` 协议研发
 
-![](/06-基于HTTP发展的协议-images/image-20200326045033078.png)
+![](/post/Network/01-应用层/01-HTTP协议/06-基于HTTP发展的协议-images/image-20200326045033078.png)
 
 ### QUIC优点
 

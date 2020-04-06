@@ -16,7 +16,7 @@ categories: ["Redis"]
 
 ### 类型结构模型
 
-![](/03-Redis-list-images/image-20200322192110086.png)
+![](/post/Redis/04-Redis数据类型/03-Redis-list-images/image-20200322192110086.png)
 
 
 

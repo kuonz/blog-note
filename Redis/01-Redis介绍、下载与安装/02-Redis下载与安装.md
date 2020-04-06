@@ -14,7 +14,7 @@ categories: ["Redis"]
 
 访问 [Redis官方网站](https://redis.io/download)，挑选合适的版本进行下载
 
-![](/02-Redis下载与安装-images/image-20200322153536217.png)
+![](/post/Redis/01-Redis介绍、下载与安装/02-Redis下载与安装-images/image-20200322153536217.png)
 
 ### 安装
 
